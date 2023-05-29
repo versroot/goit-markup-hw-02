@@ -31,7 +31,6 @@ body {
 }
 
 .nav-list-item {
-  text-decoration: none;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -40,14 +39,13 @@ body {
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.nav-list-item:hover,
-.nav-list-item:active,
-.contact-list-item:hover {
-  color: #4d5ae5;
+.nav-list-item:hover:focus,
+.contact-list-item:hover:focus,
+.solutions-button:hove:focus {
+  color: #404bbf;
 }
 
 .contact-list-item {
-  text-decoration: none;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -56,12 +54,17 @@ body {
   color: #434455;
 }
 
+.addr {
+  font-style: normal;
+}
 /* main styling index*/
 /*section 1 index*/
 .solutions {
   background-color: var(--accent-color);
 }
 .solutions-title {
+  font-size: 56px;
+  line-height: 1.07;
   color: #ffffff;
   text-align: center;
   letter-spacing: 0.02em;
@@ -71,6 +74,7 @@ body {
   background-color: #4d5ae5;
   font-family: inherit;
   font-size: 16px;
+  font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   border: 0px;
@@ -116,6 +120,9 @@ body {
 /*section 4 index*/
 .team {
   background-color: #f4f4fd;
+}
+.team-card {
+  background-color: #ffffff;
 }
 .pic-team {
 }
@@ -165,7 +172,7 @@ body {
 .portfolio-button {
   background: #f4f4fd;
   border: 1px solid #e7e9fc;
-  border-radius: 4px;
+  font-family: "Robot", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -174,7 +181,7 @@ body {
   color: #4d5ae5;
 }
 
-.portfolio-button:hover {
+.portfolio-button:hover:focus {
   background: #404bbf;
   color: #ffffff;
   cursor: pointer;
