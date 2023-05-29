@@ -40,8 +40,7 @@ body {
 }
 
 .nav-list-item:hover:focus,
-.contact-list-item:hover:focus,
-.solutions-button:hove:focus {
+.contact-list-item:hover:focus {
   color: #404bbf;
 }
 
@@ -80,7 +79,9 @@ body {
   border: 0px;
   cursor: pointer;
 }
-
+.solutions-button:hover:focus {
+  background-color: #404bbf;
+}
 /*section 2 index*/
 
 .values {
@@ -172,19 +173,19 @@ body {
 .portfolio-button {
   background: #f4f4fd;
   border: 1px solid #e7e9fc;
-  font-family: "Robot", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.04em;
   color: #4d5ae5;
+  cursor: pointer;
 }
 
 .portfolio-button:hover:focus {
-  background: #404bbf;
+  background-color: #404bbf;
   color: #ffffff;
-  cursor: pointer;
 }
 .portfolio-list-item {
 }
