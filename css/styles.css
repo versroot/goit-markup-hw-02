@@ -1,37 +1,33 @@
 :root {
-  --main-color: #000000;
   --accent-color: #2e2f42;
 }
 body {
-  font-family: "roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   background-color: #ffffff;
-  color: var(--main-color);
+  color: #434455;
 }
 
-.nav-list,
-.contact-list,
-.values-list,
-.what-we-do-list,
-.team-list,
-.portfolio-buttons-list,
-.portfolio-list {
+.list {
   list-style-type: none;
 }
 
+.link {
+  text-decoration: none;
+}
 /* header styling */
 .logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   text-transform: uppercase;
   color: #4d5ae5;
   list-style-type: none;
-  text-decoration: none;
+  letter-spacing: 0.03em;
 }
 .logo-studio-header {
-  color: var(--main-color);
+  color: #2e2f42;
 }
 
 .nav-list-item {
@@ -76,8 +72,6 @@ body {
   font-family: inherit;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.04em;
   border: 0px;
   cursor: pointer;
@@ -169,21 +163,12 @@ body {
 /* main styling portfolio */
 
 .portfolio-button {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 12px 24px;
-  width: 78px;
-  height: 48px;
   background: #f4f4fd;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
-  align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
   color: #4d5ae5;
@@ -191,8 +176,6 @@ body {
 
 .portfolio-button:hover {
   background: #404bbf;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
   color: #ffffff;
   cursor: pointer;
 }
