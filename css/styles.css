@@ -1,5 +1,6 @@
 :root {
   --accent-color: #2e2f42;
+  --description-color: #434455;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -191,5 +192,18 @@ body {
   background-color: #404bbf;
   color: #ffffff;
 }
-.portfolio-list-item {
+.portfolio-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
+}
+
+.portfolio-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--description-color);
 }
